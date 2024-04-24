@@ -502,3 +502,9 @@ Traceback (most recent call last):
   File "D:\python\Deep Learning Project\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 15, in main
     training_config = config.get_training_config()
 AttributeError: 'ConfigurationManager' object has no attribute 'get_training_config'
+[2024-04-24 00:35:18,990: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 00:35:18,993: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 00:35:18,995: INFO: common: created directory at: artifacts]
+[2024-04-24 00:35:59,897: INFO: common: json file saved at: scores.json]
+[2024-04-24 00:36:01,570: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-04-24 00:36:02,186: INFO: builder_impl: Assets written to: C:\Users\ACER\AppData\Local\Temp\tmpb_qlb3jd\model\data\model\assets]

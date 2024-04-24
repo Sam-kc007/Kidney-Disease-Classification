@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/python/Deep%20Learning%20Project/Kidney-Disease-Classification/mlruns/0/0623e6a23e064cf5ae9c5a608f8a314b/artifacts
+end_time: 1713933796919
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0623e6a23e064cf5ae9c5a608f8a314b
+run_name: exultant-pug-182
+run_uuid: 0623e6a23e064cf5ae9c5a608f8a314b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713933782355
+status: 3
+tags: []
+user_id: ACER
