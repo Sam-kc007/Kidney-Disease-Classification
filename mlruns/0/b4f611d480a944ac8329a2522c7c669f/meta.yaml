@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/python/Deep%20Learning%20Project/Kidney-Disease-Classification/mlruns/0/b4f611d480a944ac8329a2522c7c669f/artifacts
+end_time: 1713935152422
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4f611d480a944ac8329a2522c7c669f
+run_name: sneaky-roo-211
+run_uuid: b4f611d480a944ac8329a2522c7c669f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713935140121
+status: 3
+tags: []
+user_id: ACER
