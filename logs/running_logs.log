@@ -536,3 +536,68 @@ AttributeError: 'ConfigurationManager' object has no attribute 'get_training_con
 [2024-04-24 01:10:48,359: INFO: common: yaml file: params.yaml loaded successfully]
 [2024-04-24 01:10:48,360: INFO: common: created directory at: artifacts]
 [2024-04-24 01:11:27,287: INFO: common: json file saved at: scores.json]
+[2024-04-24 01:13:38,166: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 01:13:38,169: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 01:13:38,171: INFO: common: created directory at: artifacts]
+[2024-04-24 01:14:17,097: INFO: common: json file saved at: scores.json]
+[2024-04-24 01:14:19,751: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-04-24 01:14:20,321: INFO: builder_impl: Assets written to: C:\Users\ACER\AppData\Local\Temp\tmp3034qxnt\model\data\model\assets]
+[2024-04-25 19:31:08,379: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 19:31:08,403: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 19:31:08,403: INFO: common: created directory at: artifacts]
+[2024-04-25 19:32:13,441: INFO: common: json file saved at: scores.json]
+[2024-04-25 19:32:18,136: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-04-25 19:32:18,681: INFO: builder_impl: Assets written to: C:\Users\ACER\AppData\Local\Temp\tmpfll3kvsp\model\data\model\assets]
+[2024-04-25 19:53:34,986: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 19:53:34,992: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 19:53:34,994: INFO: common: created directory at: artifacts]
+[2024-04-25 19:54:14,411: INFO: common: json file saved at: scores.json]
+[2024-04-25 19:54:17,149: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-04-25 19:54:17,834: INFO: builder_impl: Assets written to: C:\Users\ACER\AppData\Local\Temp\tmp86zholrr\model\data\model\assets]
+[2024-04-25 20:18:16,773: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-25 20:30:56,587: ERROR: main: 'Evaluation' object has no attribute 'get_base_model']
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    obj.main()
+  File "D:\python\Deep Learning Project\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    training.get_base_model()
+AttributeError: 'Evaluation' object has no attribute 'get_base_model'
+[2024-04-25 20:39:20,050: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-25 20:53:39,645: ERROR: main: 'Evaluation' object has no attribute 'get_base_model']
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    obj.main()
+  File "D:\python\Deep Learning Project\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.get_base_model()
+AttributeError: 'Evaluation' object has no attribute 'get_base_model'
+[2024-04-25 20:58:27,527: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-25 21:17:09,071: ERROR: main: 'TrainingConfig' object has no attribute 'path_of_model']
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    obj.main()
+  File "D:\python\Deep Learning Project\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.evaluation()
+  File "d:\python\deep learning project\kidney-disease-classification\src\cnnClassifier\components\model_evaluation.py", line 40, in evaluation
+    self.model = self.load_model(self.config.path_of_model)
+AttributeError: 'TrainingConfig' object has no attribute 'path_of_model'
+[2024-04-26 15:34:26,666: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-26 15:50:22,170: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-04-27 12:49:34,575: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-27 12:49:34,596: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-27 12:49:34,597: INFO: common: created directory at: artifacts]
+[2024-04-27 12:50:27,278: INFO: common: json file saved at: scores.json]
+[2024-04-27 12:50:33,136: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-04-27 12:50:33,686: INFO: builder_impl: Assets written to: C:\Users\ACER\AppData\Local\Temp\tmpgx2q5m06\model\data\model\assets]
+[2024-04-27 13:04:32,272: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-27 13:19:08,486: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2024-04-27 13:59:50,501: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-27 13:59:50,517: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-27 13:59:50,522: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-27 13:59:50,523: INFO: common: created directory at: artifacts]
+[2024-04-27 13:59:50,524: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-27 13:59:50,524: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1rY_aR3rQ4DPVP8gefPhjiGFApDIa2ppn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-27 14:00:37,510: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1rY_aR3rQ4DPVP8gefPhjiGFApDIa2ppn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-27 14:01:00,061: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-04-27 14:04:22,482: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]

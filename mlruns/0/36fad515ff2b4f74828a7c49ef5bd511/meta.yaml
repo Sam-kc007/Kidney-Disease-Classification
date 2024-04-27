@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/python/Deep%20Learning%20Project/Kidney-Disease-Classification/mlruns/0/36fad515ff2b4f74828a7c49ef5bd511/artifacts
+end_time: 1714238361678
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36fad515ff2b4f74828a7c49ef5bd511
+run_name: debonair-colt-159
+run_uuid: 36fad515ff2b4f74828a7c49ef5bd511
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714238347199
+status: 3
+tags: []
+user_id: ACER
